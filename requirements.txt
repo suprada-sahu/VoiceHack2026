@@ -1,0 +1,23 @@
+# CareCaller AI — Streamlit Frontend Dependencies
+# Install: pip install -r requirements.txt
+
+# ── Core UI ──────────────────────────────────────────
+streamlit>=1.55.0
+
+# ── LLM APIs ─────────────────────────────────────────
+requests>=2.31.0          # For Grok API calls
+anthropic>=0.25.0         # Optional: Anthropic Claude fallback
+
+# ── Environment ──────────────────────────────────────
+python-dotenv>=1.0.1
+
+# ── Text-to-Speech ────────────────────────────────────
+gTTS>=2.5.1               # Google Text-to-Speech (free)
+
+# ── Speech-to-Text (optional) ─────────────────────────
+# Uncomment to enable microphone input:
+# SpeechRecognition>=3.10.1
+# pyaudio>=0.2.14
+
+# ── Data ─────────────────────────────────────────────
+pandas>=2.2.0             # For response tables (optional)
